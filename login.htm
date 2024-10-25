@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <button id="l" >Developer Info</button>
+    <div id="p">
+        <center><h2>Welcome back!</h2></center>
+        <center><p>We're so excited to see you agin!</p></center>
+        <div id="pp">
+            <div id="n">EMAIL OR PHONE NUMBER</div><br>
+            <input type="email or number" >
+            <div id="n">PASSWORD</div><br>
+            <input type='password'>
+            <br>
+            <a id="n" class="b" href="">Forgot your password?</a>
+            <button id="btn">Log In</button>
+            <p>Need an account? <a href=""> Register</a></p>
+        </div>
+        
+    </div>
+
+
+
+    <script>
+        a = document.getElementById('btn')
+        a.onclick = ()=>{
+            location.href='http://127.0.0.1:5501/index.htm'
+        }
+        aa = document.getElementById('l')
+       aa.onclick = (dd)=>{
+        dd.preventDefault()
+        location.href='res.htm'
+       }
+    </script>
+</body>
+</html>

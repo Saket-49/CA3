@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="down.css">
+</head>
+<body class="body">
+    <div class="nav">
+        <div class="logo"><img class="ddd" src="discord-logo-white.png"></div>
+        <!-- anchors  -->
+         <div class="anchors">
+            <a href="" id="dwnd" class="a-an">Download</a>
+            <a href="" id='nin' class="a-an">Nitro</a>
+            <a href="" class="a-an">Discover</a>
+            <a href="" id="sf" class="a-an">Safety</a>
+            <a href="" class="a-an">Support</a>
+            <a href="" class="a-an">Blog</a>
+            <a href="" class="a-an">Careers</a>
+         </div>
+         <!-- button  -->
+          <div class="btnod">
+            <a class="bod" href="">Log In</a>
+          </div>
+    </div>
+
+
+    <div id="cnt">
+        <div id="hero">
+        <h1 id="op">GET DISCORD FOR ANY DEVICE</h1>
+        <p>An adventure awaits. Hang out with your friends on our desktop app and keep the conversation going on mobile.
+
+        </p>
+
+        <button id="kk">Download for windows</button>
+       <p id="pl">Windows 10 or higher</p> 
+        </div>
+        <div id="hero2">
+            <img src="xxssl.svg" alt="">
+        </div>
+    </div>
+    
+    <script>
+        x = document.querySelector('.bod')
+        x.onclick= (xx)=>{
+            xx.preventDefault()
+            location.href= 'http://127.0.0.1:5501/login.htm'
+        }
+        lol = document.getElementById('nin')
+        lol.onclick = (s)=>{
+            s.preventDefault()
+            location.href = "http://127.0.0.1:5501/nitro.htm"
+        }
+        c = document.getElementById('dwnd')
+        c.onclick = (ll)=>{
+            ll.preventDefault()
+            location.href = 'http://127.0.0.1:5501/download.htm'
+        }
+        bi= document.getElementById('sf')
+                        bi.onclick=(dd)=>{
+                            dd.preventDefault()
+                            location.href='http://127.0.0.1:5501/safety.htm'
+                        }
+    </script>
+</body>
+</html>
